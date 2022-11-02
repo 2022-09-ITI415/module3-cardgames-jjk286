@@ -66,6 +66,10 @@ public void SetSortOrder(int sOrd) {
 		}
 	}
 
+	virtual public void OnMouseUpAsButton() {
+		print (name);
+	}
+
 
 	
 	// Update is called once per frame
